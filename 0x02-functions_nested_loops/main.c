@@ -1,4 +1,4 @@
-#include "ndubuisi.h"
+#include "main.h"
 
 /**
  * main - Prints ndubuisi as a message.
