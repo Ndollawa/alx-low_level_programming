@@ -1,5 +1,5 @@
-#ifndef _ndubuisi_h_
-#define _ndubuisi_h_
+#ifndef main_h
+#define main_h
 
 int _putchar(char);
 void print_alphabet(void);
