@@ -1,1 +1,3 @@
-# alx-low_level_programming
+## alx-low_level_programming
+
+# Project done during **Full Stack Software Engineering studies** at **ALX School**.
