@@ -1,20 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
-#include <ctype.h>
-
-
-/**
- * mul - Return a multiplation of two integer numbers
- * @numone: first number.
- * @numtwo: length of the char array.
- *
- * Return: int.
- */
-unsigned long mul(int numone, int numtwo)
-{
-	return (numone*numtwo);
-}
 
 /**
  * main - Entry point.
@@ -27,7 +11,7 @@ unsigned long mul(int numone, int numtwo)
 int main(int argc, char *argv[])
 {
 	int x, y;
-unsigned long result;
+unsigned long mul;
 
 	if (argc != 3)
 	{
@@ -43,8 +27,8 @@ unsigned long result;
 		}
 	}
 	
-	result= mul(atol(argv[1]), atol(argv[2]));
+	mul= atol(argv[1])*atol(argv[2]);
 	
-	printf("%d\n", result);
+	printf("%d\n", mul);
 	return (0);
 }
