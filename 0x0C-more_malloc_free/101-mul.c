@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
+#include <limit.h>
 
 /**
  * main - Entry point.
@@ -13,7 +13,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int x, y;
+int x, y;
 unsigned long mul;
 
 	if (argc != 3)
@@ -32,6 +32,6 @@ unsigned long mul;
 	
 	mul= atol(argv[1]) * atol(argv[2]);
 	
-	printf("%d\n", mul);
+	printf("%lu\n", mul);
 	return (0);
 }
