@@ -36,12 +36,12 @@ void _is_zero(char *argv[])
 
 /**
  * _initialize_array - set memery to zero in a new array
- * @num1: char array.
- * @num2: length of the char array.
+ * @num1: first number.
+ * @num2: second number.
  *
- * Return: pointer of a char array.
+ * Return: the result of the multiplication.
  */
-char mul(int num1, int num2)
+unsigned long mul(int num1, int num2)
 {
 	return (num1*num2);
 }
@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 	int ln1, ln2, numTwo, numOne, *result;
 
 
-	if (argc != 2)
+	if (argc != 3)
 		printf("Error\n"), exit(98);
 	ln1 = _checknum(argv, 1), ln2 = _checknum(argv, 2);
 	_is_zero(argv), numTwo = ln1 + ln2, numOne = malloc(numTwo + 1);
