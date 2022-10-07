@@ -43,7 +43,7 @@ unsigned long result;
 		}
 	}
 	
-	result= mul(argv[1], argv[2]);
+	result= mul(atol(argv[1]), atol(argv[2]));
 	
 	printf("%d\n", result);
 	return (0);
